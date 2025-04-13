@@ -1,0 +1,24 @@
+.scrollable-menu {
+    overflow-y: auto; /* Habilita el scroll vertical */
+    max-height: calc(100vh - 150px); /* Ajusta la altura máxima */
+    scrollbar-width: thin; /* Para navegadores que soportan scrollbar-width */
+    scrollbar-color: #283347 #2d3748; /* Color del scrollbar */
+  }
+  
+  /* Estilos para el scrollbar en navegadores WebKit (Chrome, Safari) */
+  .scrollable-menu::-webkit-scrollbar {
+    width: 4px; /* Ancho del scrollbar */
+  }
+  
+  .scrollable-menu::-webkit-scrollbar-track {
+    background: #2d3748; /* Color de fondo del track */
+  }
+  
+  .scrollable-menu::-webkit-scrollbar-thumb {
+    background: #4a5568; /* Color del thumb */
+    border-radius: 4px; /* Bordes redondeados */
+  }
+  
+  .scrollable-menu::-webkit-scrollbar-thumb:hover {
+    background: #718096; /* Color del thumb al pasar el mouse */
+  }
